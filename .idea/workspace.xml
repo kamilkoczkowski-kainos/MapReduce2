@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ddcb26f0-0abe-4742-8f06-85decf6bae87" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/datamass/MapWordCount.java" afterPath="$PROJECT_DIR$/src/main/java/io/datamass/MapWordCount.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datamass/Driver.java" afterPath="$PROJECT_DIR$/src/main/java/io/datamass/Driver.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/datamass/ReducerWordCount.java" afterPath="$PROJECT_DIR$/src/main/java/io/datamass/ReducerWordCount.java" />
       <change beforePath="$PROJECT_DIR$/target/Kamil_MapReduce-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/Kamil_MapReduce-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/datamass/Driver.class" afterPath="$PROJECT_DIR$/target/classes/io/datamass/Driver.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/datamass/MapTablePercentCount.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/datamass/MapWordCount.class" afterPath="$PROJECT_DIR$/target/classes/io/datamass/MapWordCount.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/datamass/ReducerWordCount.class" afterPath="$PROJECT_DIR$/target/classes/io/datamass/ReducerWordCount.class" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/target/original-Kamil_MapReduce-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/original-Kamil_MapReduce-1.0-SNAPSHOT.jar" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,8 +39,8 @@
       <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/datamass/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="195">
+              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -43,8 +49,8 @@
       <file leaf-file-name="MapWordCount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/datamass/MapWordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,12 +61,22 @@
       <file leaf-file-name="ReducerWordCount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/datamass/ReducerWordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#477#492#0" expanded="true" />
+                <element signature="e#478#493#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ReducerWordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/MapWordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/datamass/MapWordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/datamass/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/datamass/ReducerWordCount.java" />
       </list>
     </option>
@@ -315,6 +332,14 @@
       <option name="presentableId" value="Default" />
       <updated>1520849792269</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changes in reducer, added %">
+      <created>1521457406802</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521457406802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -322,6 +347,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26993006" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -344,12 +370,15 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27073732" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes in reducer, added %" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in reducer, added %" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -388,7 +417,7 @@
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#492#0" expanded="true" />
+            <element signature="e#478#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,7 +444,7 @@
           <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#492#0" expanded="true" />
+            <element signature="e#478#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -452,7 +481,7 @@
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#492#0" expanded="true" />
+            <element signature="e#478#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -493,7 +522,7 @@
           <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#492#0" expanded="true" />
+            <element signature="e#478#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -536,18 +565,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/datamass/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="195">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/datamass/MapWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -556,11 +593,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/datamass/ReducerWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#492#0" expanded="true" />
+            <element signature="e#478#493#0" expanded="true" />
           </folding>
         </state>
       </provider>
